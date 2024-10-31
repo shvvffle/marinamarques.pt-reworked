@@ -134,7 +134,7 @@ Landing page with a compliment generator."
               description="Responsive personal/portfolio website. The source code is available at both Codepen and Github and has been used by over 300 people."
               image="/images/work-personalWebsite.png"
               technologies="Javascript, jQuery, HTML, CSS"
-              liveUrl="https://analytics-demo.example.com"
+              liveUrl="https://marinamarques.netlify.app/"
               githubUrl="https://github.com/shvvffle/marinamarques.pt"
             />
           </div>
