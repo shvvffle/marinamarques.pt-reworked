@@ -7,7 +7,7 @@ interface ProjectCardProps {
   image: string;
   technologies: string;
   liveUrl: string;
-  githubUrl: string;
+  githubUrl?: string;
 }
 
 export function ProjectCard({
@@ -41,15 +41,17 @@ export function ProjectCard({
             <ExternalLink className="w-4 h-4" />
             Live Demo
           </a>
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors"
-          >
-            <Github className="w-4 h-4" />
-            Code
-          </a>
+          {githubUrl && (
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors"
+            >
+              <Github className="w-4 h-4" />
+              Code
+            </a>
+          )}
         </div>
       </div>
     </div>

@@ -137,6 +137,13 @@ Landing page with a compliment generator."
               liveUrl="https://marinamarques.netlify.app/"
               githubUrl="https://github.com/shvvffle/marinamarques.pt"
             />
+            <ProjectCard
+              title="Can My Cat/Dog Eat This?"
+              description="A simple web app that tells you if a food is safe for your pet to eat."
+              image="/images/work-canmycatdogeatthis.png"
+              technologies="React, TypeScript, TailwindCSS"
+              liveUrl="https://canmypeteatthis.netlify.app/"
+            />
           </div>
         </div>
       </section>
