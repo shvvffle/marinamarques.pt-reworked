@@ -38,7 +38,7 @@ function App() {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl leading-relaxed mt-6">
-                I'm a front-end developer based in the beautiful city of
+                I'm a frontend engineer based in the beautiful city of
                 <span className="text-teal-600 dark:text-teal-400 font-medium">
                   {" "}
                   Lisbon, Portugal
@@ -63,13 +63,13 @@ function App() {
             <div className="flex gap-6 text-gray-600 dark:text-gray-400">
               <div className="flex items-center gap-2">
                 <Code className="w-5 h-5 text-teal-600 dark:text-teal-400" />
-                <span>Front End Developer at Sherpany</span>
+                <span>Frontend Engineer at Sherpany</span>
               </div>
               <div className="flex items-center gap-2">
                 <Book className="w-5 h-5 text-purple-600 dark:text-purple-400" />
                 <span>
                   <a href="https://youdontseemebook.com/" target="_blank">
-                    Published Indie Author
+                    Self Published Indie Horror Author
                   </a>
                 </span>
               </div>
@@ -95,7 +95,7 @@ function App() {
             </div>
             <div className="flex-1 space-y-4 text-center md:text-left">
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm a front-end developer — which is just a fancy way to say I
+                I'm a frontend engineer — which is just a fancy way to say I
                 architect and build websites and applications. My coding journey
                 began back when MySpace profiles were all the rage. I remember
                 the thrill (and frustration!) of trying to figure out how to
@@ -143,6 +143,7 @@ Landing page with a compliment generator."
               image="/images/work-usetextselection.png"
               technologies="React, TypeScript, TailwindCSS"
               liveUrl="https://use-text-selection.netlify.app/"
+              githubUrl="https://github.com/shvvffle/use-text-selection"
             />
           </div>
         </div>
