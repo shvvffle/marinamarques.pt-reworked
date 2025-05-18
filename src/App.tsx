@@ -145,6 +145,13 @@ Landing page with a compliment generator."
               liveUrl="https://use-text-selection.netlify.app/"
               githubUrl="https://github.com/shvvffle/use-text-selection"
             />
+            <ProjectCard
+              title="You Don’t See Me: A Plea In The Dark"
+              description="A short interactive fiction game about longing to be seen, where every choice shapes whether you fade into the shadows or find a flicker of connection."
+              image="/images/work-youdontseeme-interactivegame.png"
+              technologies="React, TypeScript, TailwindCSS"
+              liveUrl="https://youdontseemeinteractivegame.netlify.app/"
+            />
           </div>
         </div>
       </section>
