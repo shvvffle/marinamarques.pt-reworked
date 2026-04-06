@@ -152,6 +152,13 @@ Landing page with a compliment generator."
               technologies="React, TypeScript, TailwindCSS"
               liveUrl="https://youdontseemeinteractivegame.netlify.app/"
             />
+            <ProjectCard
+              title="LetterboxdStats"
+              description="Transform your Letterboxd watch history into meaningful insights. Upload your CSV export to discover viewing patterns, track director filmography progress, and share beautiful stats cards — no login required."
+              image="/images/work-letterboxdstats.png"
+              technologies="React, TypeScript, TailwindCSS"
+              liveUrl="https://letterboxdstats.app/"
+            />
           </div>
         </div>
       </section>
